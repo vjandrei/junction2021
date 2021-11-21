@@ -1,5 +1,7 @@
 # The Smartest Energy Consumption Experience
 
+![Image01](https://github.com/vjandrei/junction2021/blob/main/submissionImage01.jpg)
+
 I have made Alexa skills that can access to Oras and also different datasources to get information about consumption.
 What I did is voice command application for getting household information. User can ask simple questions about example. water consumption. 
 
