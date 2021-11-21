@@ -1,4 +1,3 @@
-# The Smartest Energy Consumption Experience
 
 ![Image01](https://github.com/vjandrei/junction2021/blob/main/submissionImage01.jpg)
 
@@ -7,11 +6,14 @@ What I did is voice command application for getting household information. User 
 
 Easy way to access consumption data from just ask data. No need to get extra monitors or applications to view consumption usage. 
 
+![Image01](https://github.com/vjandrei/junction2021/blob/main/submissionImage02.jpg)
 
 #### Designing a VUI
 
 Firstly needed to designing VUI
 For that I used Miro.  Scenarios are great they let quickly flesh out the high level interaction between user and product.
+
+![Image01](https://github.com/vjandrei/junction2021/blob/main/submissionImage03.jpg)
 
 #### Set Up the ASK SDK for Node.js
 
