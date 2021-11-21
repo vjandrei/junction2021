@@ -30,4 +30,5 @@ After multiple  testing and build versions time to test the product in hardware.
 
 1. Add Tensorflow.js to predict shower usage
 2. Add database to MongoDB 
-3. ...
+3. Strava API connection, Other API connections
+4. ...
