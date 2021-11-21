@@ -1,0 +1,36 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:616945752935:function:c2830fa3-863a-4526-8544-a48230d56aff:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:616945752935:function:c2830fa3-863a-4526-8544-a48230d56aff:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:616945752935:function:c2830fa3-863a-4526-8544-a48230d56aff:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:616945752935:function:c2830fa3-863a-4526-8544-a48230d56aff:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "junction-oras"
+        }
+      }
+    }
+  }
+}

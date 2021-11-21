@@ -1,0 +1,141 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "home info",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ORASWaterIntent",
+          "slots": [],
+          "samples": [
+            "I will wait the",
+            "ok",
+            "thank you"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "ORASHouseInformationIntent",
+          "slots": [
+            {
+              "name": "EnergyConsumption",
+              "type": "EnergyConsumptionSlot"
+            }
+          ],
+          "samples": [
+            "how much {EnergyConsumption} I have been use",
+            "{EnergyConsumption}",
+            "I liked to know about {EnergyConsumption} consumption"
+          ]
+        },
+        {
+          "name": "ORASShowerIntent",
+          "slots": [
+            {
+              "name": "WaterPoint",
+              "type": "WeterPointsSlot"
+            }
+          ],
+          "samples": [
+            "tell me about {WaterPoint}",
+            "{WaterPoint}",
+            "can I have {WaterPoint}"
+          ]
+        },
+        {
+          "name": "ORASShowerUsageIntent",
+          "slots": [],
+          "samples": [
+            "tips of shower",
+            "how do shower",
+            "how to use less shower",
+            "less water",
+            "tips"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "dishwasher"
+              }
+            },
+            {
+              "name": {
+                "value": "washing machine"
+              }
+            },
+            {
+              "name": {
+                "value": "toilet"
+              }
+            },
+            {
+              "name": {
+                "value": "kitchen"
+              }
+            },
+            {
+              "name": {
+                "value": "shower"
+              }
+            }
+          ],
+          "name": "WeterPointsSlot"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "central heating"
+              }
+            },
+            {
+              "name": {
+                "value": "electricity"
+              }
+            },
+            {
+              "name": {
+                "value": "water"
+              }
+            }
+          ],
+          "name": "EnergyConsumptionSlot"
+        }
+      ]
+    }
+  },
+  "version": "26"
+}
